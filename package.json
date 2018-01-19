@@ -1,0 +1,27 @@
+{
+  "name": "super-pictures",
+  "version": "1.0.0",
+  "description": "imágenes interactivas con efectos hover.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carol-solivos/cardify.git"
+  },
+  "keywords": [
+    "imagenes",
+    "hover",
+    "interactivo"
+  ],
+  "author": "Vanessa Martínez & Carol Sepúlveda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carol-solivos/cardify/issues"
+  },
+  "homepage": "https://github.com/carol-solivos/cardify#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
