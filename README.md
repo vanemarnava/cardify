@@ -1,58 +1,90 @@
 
-# Super-Pictures
+Super-Pictures
+==============
 
 ***
 
-## Introducción
+Introducción
+------------
 
-> Super-Pictures es un Plugin de jQuery que permite darle a las imagenes de tu proyecto diversos estilos que ayudarán a que se vea visualmente atractivo e interactivo.
+<p>Super-Pictures es un Plugin de jQuery que permite darle a las imagenes de tu proyecto diversos estilos que ayudarán a que se vea visualmente atractivo e interactivo.</p>
 
 
-## Descripcion del reto
+Descripcion del reto
+--------------------
 
->El objetivo central de este curso es construir una librería (library) que responda a los requisitos de los retos modelos entregados o bien se puede presentar uno nuevo. 
+<p>El objetivo central de este curso es construir una librería (library) que responda a los requisitos de los retos modelos entregados por Laboratoria o bien se puede proponer un reto propio.</p>
 
->El reto modelo seleccionado fue el n°2; CARDIFY (muestra alt en vez de imagen en hover) 
+<p>El reto modelo seleccionado fue el n°2; CARDIFY (muestra alt en vez de imagen en hover).</p>
 
->El reto se hará en grupos de dos alumnas y será presentado al final del curso en una demo al resto de la clase. 
+<p>El reto se hará en grupos de dos alumnas y será presentado al final del curso en una demo al resto de la clase.</p>
 
-#### Plan de accion
 
+Flujo de trabajo
+----------------
+
+###Semana 1
+
+1. Se forma equipo y selecciona reto.
+
+2. Se hace [**fork**](https://github.com/Laboratoria-learning/cardify) desde el repositorio de Laboratoria por una de las integrantes del equipo. Se crea rama para trabajar y se configura el ambiente de desarrollo (NPM).
+
+3. La segunda integrande realiza un fork del repositorio de la primera integrante para luego posicionarse en la rama creada, clonar el repositorio de la companera y comenzar a trabajar. 
+
+4. Se escribe una primera version de README, este posee una descripcion general del proyecto. 
+
+5. Se crean issue y milestone.
+
+###Semana 2
+
+1.
+
+###Semana 3
+
+1.
+
+
+Instrucciones de instalación
+----------------------------
+
+<p></p>
+
+
+Uso
+-----
+
+<p></p>
+
+
+Ejemplos
+---------
+
+<p></p>
+
+
+Dependencias
+------------
+
+>### Desarrollo
 >
+>* Eslint v4.15.0
+>* JQuery 
 
-
-## Instrucciones de instalación
-
+>### Producción 
 >
+>* Bootstrap 
 
 
-## Uso
-
->
-
-
-## Dependencias
-
-#### Desarrollo
-
-> Eslint v4.15.0
-> JQuery 
-
-#### Producción 
-
-> Bootstrap 
+Autoras
+-------
+ 
+[*Carol Sepúlveda*](https://github.com/carol-solivos) & [*Vanessa Martínez*](https://github.com/vanemarnava)
 
 
-## Autores
+Licencia
+--------
 
-* Carol Sepúlveda
-* Vanessa Martínez 
+*The --- License (---)*
 
+*Copyright (C) 2018 ~ Super-Pictures*
 
-## Licencia
-
->
-
-
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
