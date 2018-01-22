@@ -36,6 +36,7 @@ Flujo de trabajo
 
 ### Semana 2
 
+
 1. Agregar los test.
 
 2. Creando la funcionalidad desde app.js
@@ -43,6 +44,9 @@ Flujo de trabajo
 Implementar funcionalidad esencial. 
 code review
 -->
+
+1. Agregar 
+
 
 ### Semana 3
 
@@ -82,9 +86,13 @@ Dependencias
 >* JQuery 
 >*
 
+>* Mocha
+>* Chai
+
+
 >### Producción 
 >
->* Bootstrap 
+>* Bootstrap 4.0.0
 
 
 Autoras
