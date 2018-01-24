@@ -2,7 +2,6 @@
 Super-Pictures
 ==============
 
-***
 
 Introducción
 ------------
@@ -23,7 +22,7 @@ Descripcion del reto
 Flujo de trabajo
 ----------------
 
-###Semana 1
+### Semana 1
 
 1. Se forma equipo y selecciona reto.
 
@@ -35,19 +34,31 @@ Flujo de trabajo
 
 5. Se crean issue y milestone.
 
-###Semana 2
+### Semana 2
+
+1. Agregar los test.
+
+2. Creando la funcionalidad desde app.js
+<!-- Agregar tests que describan la API de tu librería y los casos de uso esperados.
+Implementar funcionalidad esencial. 
+code review
+-->
+
+### Semana 3
 
 1.
-
-###Semana 3
-
-1.
+<!-- Completar implementación de librería y ejemplo principal (usando la librería).
+Hacer code review con tus compañeras e instructorxs.
+Preparar tu demo/presentación.
+Publicar el ejemplo principal (index.html) en GitHub pages. -->
 
 
 Instrucciones de instalación
 ----------------------------
 
-<p></p>
+<p>Intrucciones para implementar esta libreria en tu proyecto</p>
+
+1. 
 
 
 Uso
@@ -69,6 +80,7 @@ Dependencias
 >
 >* Eslint v4.15.0
 >* JQuery 
+>*
 
 >### Producción 
 >
