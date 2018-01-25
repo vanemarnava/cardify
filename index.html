@@ -13,6 +13,49 @@
 
 </head>
 <body>
+	<!-- header -->
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" width="50"> SuperPictures</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="#gallery">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="#gallery">Ejemplo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="#instrucciones">Instrucciones</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Galeria de imágenes</h1>
+					<h3>Con efectos en hover</h3>
+					<img src="assets/img/logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="instrucciones">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Instrucciones</h1>
+					<img src="assets/img/logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
 	<div class="container-fluid">
 		
 		<!-- imagenes -->
@@ -51,16 +94,19 @@
 			</div> <!-- fin col -->	
 		</div> <!-- fin row -->
 	</div> <!-- fin container -->
-
+	<footer>
+	<p>Todos los derechos reservados &#169; 2018</p>
+	<a href="#gallery" class="smooth-scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i> Subir</a>
+	</footer>
 	<!-- scripts -->
 	<!-- script de JQuery -->
 	<script src="assets/js/jquery-3.2.1.min.js"></script> 
 	<!-- enlace script de js -->
 	<script type="text/javascript" src="assets/js/app.js"></script>
-
-	 <script>
+	<script>
     $('body').superPic({});
-  </script> 
-
-</body>hy
+  </script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
 </html>

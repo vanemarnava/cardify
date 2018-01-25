@@ -1,5 +1,3 @@
-
-// 
 (function() { 
 // permite extender las funciones en jQuery 
   $.fn.extend({
