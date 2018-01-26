@@ -1,4 +1,9 @@
+
 const index = require('../assets/js/index');
+
+// traer el codigo que se va a testear
+const app = require('../assets/js/app'); 
+
 const assert = require('chai').assert;
 const search = require('../assets/js/index').search;
 const superPic = require('chai').superPic;
