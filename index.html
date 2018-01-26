@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<!-- enlace bootstarp  -->
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 </head>
 <body>
 	<!-- header -->
@@ -41,8 +40,39 @@
 				<div class="col-sm-12">
 					<h1>Galeria de imágenes</h1>
 					<h3>Con efectos en hover</h3>
-					<img src="assets/img/logo.png" alt="">
-				</div>
+					<div class="container areaGallery">		
+						<!-- imagenes -->
+						<div class="row">			
+							<!-- imagen 1 -->
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+								<!-- <figure> donde se crearia la etiquta -->
+									<img class="photo" src="https://misanimales.com/wp-content/uploads/2016/10/crecen-los-gatos.jpg" alt="gatito lindo">
+									<!-- <figcaption class="alt">texto que esta en el alt de etiqueta img </figcaption> -->
+									<!-- </figure> -->
+								</div> <!-- fin col -->
+								<!-- imagen 2 -->
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+									<img src="https://sumedico.com/wp-content/uploads/2017/08/gatos-casa1.jpg" alt="otro gatito">
+								</div> <!-- fin col -->
+								<!-- imagen 3 -->
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+									<img src="http://www.slopemedia.org/wp-content/uploads/2015/02/cats.jpg" alt="muchos gatitos lindos">
+								</div> <!-- fin col -->
+								<!-- imagen 4 -->
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+									<img src="https://kcpetproject.org/wp-content/uploads/2012/05/All-in-a-row-cats-16249894-1280-8001.jpg" alt="gatitos formales">
+								</div> <!-- fin col -->
+								<!-- imagen 5 -->
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+									<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/primeros-auxilios-gatos.jpg?itok=hwXun2d-" alt="gatito enfermero">
+								</div> <!-- fin col -->
+								<!-- imagen 6 -->
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+									<img src="http://estag.fimagenes.com/img/4/1/y/v/1yv_900.jpg" alt="gatito bebe">
+								</div> <!-- fin col -->	
+							</div> <!-- fin row -->
+						</div> <!-- fin container -->
+					</div>
 			</div>
 		</div>
 	</section>
@@ -51,49 +81,13 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h1>Instrucciones</h1>
-					<img src="assets/img/logo.png" alt="">
+					<div class="codigo">
+						adsfadsfhasdlhjasdf
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<div class="container-fluid">
-		
-		<!-- imagenes -->
-		<div class="row">			
-			<!-- imagen 1 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<!-- <figure> donde se crearia la etiquta -->
-					<img class="photo" src="https://misanimales.com/wp-content/uploads/2016/10/crecen-los-gatos.jpg" alt="gatito lindo">
-					<!-- <figcaption class="alt">texto que esta en el alt de etiqueta img </figcaption> -->
-				<!-- </figure> -->
-			</div> <!-- fin col -->
-
-			<!-- imagen 2 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="https://sumedico.com/wp-content/uploads/2017/08/gatos-casa1.jpg" alt="otro gatito">
-			</div> <!-- fin col -->
-
-			<!-- imagen 3 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="http://www.slopemedia.org/wp-content/uploads/2015/02/cats.jpg" alt="muchos gatitos lindos">
-			</div> <!-- fin col -->
-
-			<!-- imagen 4 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="https://kcpetproject.org/wp-content/uploads/2012/05/All-in-a-row-cats-16249894-1280-8001.jpg" alt="gatitos formales">
-			</div> <!-- fin col -->
-
-			<!-- imagen 5 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/primeros-auxilios-gatos.jpg?itok=hwXun2d-" alt="gatito enfermero">
-			</div> <!-- fin col -->
-
-			<!-- imagen 6 -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="http://estag.fimagenes.com/img/4/1/y/v/1yv_900.jpg" alt="gatito bebe">
-			</div> <!-- fin col -->	
-		</div> <!-- fin row -->
-	</div> <!-- fin container -->
 	<footer>
 	<p>Todos los derechos reservados &#169; 2018</p>
 	<a href="#gallery" class="smooth-scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i> Subir</a>
@@ -103,10 +97,9 @@
 	<script src="assets/js/jquery-3.2.1.min.js"></script> 
 	<!-- enlace script de js -->
 	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script src="assets/js/index.js"></script>
 	<script>
     $('body').superPic({});
-  </script>
-	<script src="assets/js/app.js"></script>
-	<script src="assets/js/index.js"></script>
+  </script>	
 </body>
 </html>

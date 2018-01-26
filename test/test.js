@@ -1,14 +1,29 @@
-const app = require('../assets/js/app');
+const index = require('../assets/js/index');
 const assert = require('chai').assert;
+const search = require('../assets/js/index').search;
+const superPic = require('chai').superPic;
 
-describe('isVowel()', () => {
-  it('debería devolver true para letra a', () => {
-  	assert.equal(app.isVowel('a'), true);
-  });
-  it('debería devolver false para letra b', () => {
-  	assert.equal(app.isVowel('b'), false);
-  });
-  it('debería lanzar excepción con dos chars', () => {
-  	assert.equal(app.isVowel('ab'), false);
-  });
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
+var $ = require('jquery');
+
+describe('buscar img y ponerle figure', () => {
+	it('debe buscar una imagen', () => {
+		assert.exists(search(), '3');
+	})
+});
+
+describe('buscar img y ponerle figure', () => {
+	it('debe buscar una imagen', () => {
+
+	})
+	it('app debe devolver string', () => {
+		let result = search();
+		assert.typeOf(result, 'string');
+	})
+	it('no tiene que estar vacio', () => {
+		let result = superPic();
+  	assert.isNotNull(result, 'there was no error');
+	})
 });

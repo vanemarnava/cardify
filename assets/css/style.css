@@ -6,3 +6,39 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+body {
+	background: linear-gradient(-5deg, #DCD9A9, #fff) !important;
+	background-repeat: no-repeat;
+  position: relative; 
+}
+
+ul {
+	margin-left: 40px;
+}
+
+#gallery {
+	padding: 180px 0 60px;
+}
+
+.codigo {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+}
+
+footer {
+	background: #343a40;
+	color: #fff;
+	padding: 60px;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #5CC9D6;
+	text-decoration: none;
+}
