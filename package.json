@@ -4,7 +4,7 @@
   "description": "imágenes interactivas con efectos hover.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test --reporter nyan"
   },
   "repository": {
     "type": "git",
