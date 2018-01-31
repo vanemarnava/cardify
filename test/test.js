@@ -1,3 +1,4 @@
+
 const chai = require('chai');
 
 const jsdom = require("jsdom");
@@ -33,6 +34,7 @@ var $ = require('jquery');
 const cardify = require("../src/cardify.js");
 var expect = require('chai').expect;
 
+ 
 describe('Prueba basica', function(){
   it('deberia pasar cuando todo esta correcto', function (){
     expect(true).to.be.true;
@@ -48,6 +50,13 @@ describe('comprobar extension', () => {
   });
 });
 
+describe('comprobar si existe imagen en el html', () => {
+  it('deberia devolver false si la etiqueta imagen esta vacio', () => {
+    var img = ($('img'));
+    expect(img).to.not.be.empty;
+  });
+});
+
 describe('comprobar si alt es un string', () => {
   it('alt es un string', () => {
     expect($('img').attr('alt')).to.be.a('string');
@@ -60,3 +69,5 @@ describe('comprobar si alt está vacio', () => {
     expect($('img').attr('alt')).to.have.length(length);
   });
 });
+
+
