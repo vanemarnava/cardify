@@ -41,12 +41,13 @@ Instrucciones de instalación
 
 4. Debes tener esta estructura en tus imagenes
 
-``<div class="container">
+```
+   <div class="container">
     <div class="areaGallery">
         <img src="" alt="">
     </div>
-  </div>``
-
+   </div>
+```
 
 #### Método CDN
 
@@ -54,12 +55,13 @@ Instrucciones de instalación
 
 2. Debes tener esta estructura en tus imagenes
 
-``<div class="container">
+```
+   <div class="container">
     <div class="areaGallery">
         <img src="" alt="">
     </div>
-  </div>``
-
+   </div>
+```
 
 Dependencias
 ------------
