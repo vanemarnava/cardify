@@ -1,10 +1,12 @@
 {
   "name": "super-pictures",
   "version": "1.0.0",
-  "description": "imágenes interactivas con efectos hover.",
-  "main": "index.js",
+  "description": "Imágenes interactivas con efectos hover.",
+  "main": "lib/main.js",
   "scripts": {
-    "test": "mocha test --reporter nyan"
+    "test": "mocha test --reporter nyan",
+    "tobrowser": "browserify src/cardify.js -o lib/main.js",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -23,11 +25,14 @@
   "homepage": "https://github.com/carol-solivos/cardify#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "browserify": "^15.2.0",
     "chai": "^4.1.2",
-    "jquery": "^3.3.1"
-  },
-  "devDependencies": {
+    "jquery": "^3.3.1",    
     "jsdom": "^11.6.1",
     "mocha": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-google": "^0.9.1"
   }
 }
